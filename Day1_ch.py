@@ -1,5 +1,5 @@
 # challange 1
-n,l = input("Enter a number and length of series : ").split(",")
+n,l = input("Enter a number and length of series seperated by ',' : ").split(",")
 my_list = []
 for i in range(1, int(l)+1):
             if len(my_list) <= int(l):
@@ -18,4 +18,5 @@ for char in string:
             prev_char = char
     
 result_word = ''.join(result)
+
 print(result_word)
