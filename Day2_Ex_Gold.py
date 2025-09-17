@@ -1,4 +1,4 @@
- # exercice 1 and exercice 2
+ # exercise 1 / 2
 
 birthdays ={
   "omar":"1/1/1964",
@@ -19,7 +19,7 @@ if user_name in list(birthdays.keys()) :
 else :
         print(f"“Sorry, we dont have the birthday information for {user_name}")
 print("\n")
-# exercice 3
+# exercise 3
 
 x_value =input("input x : ")
 def num_def(x):
@@ -31,7 +31,7 @@ num_def(x_value)
 
 print("\n")
 
-# exercice 4
+# exercise 4
 import random
 
 def throw_dice():
@@ -66,5 +66,5 @@ def main():
     print(f"Average throws per experiment: {average_throws:.2f}")
   
 
-# Run the program
 main()
+
