@@ -289,10 +289,11 @@ if mistakes:
         print()
 
 # Final message
-if correct_answers == len(questions):
+if correct_answers == len(q):
     print("Perfect score! You're a Star Wars expert!")
-elif correct_answers >= len(questions) / 2:
+elif correct_answers >= len(q) / 2:
     print("Good job!")
 else:
     print("Keep practicing!")
+
 
