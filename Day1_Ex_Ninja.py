@@ -1,4 +1,4 @@
-# exercice 1
+# exercise 1
 
 #x = (1 == True)
 #y = (1 == False)
@@ -12,7 +12,7 @@
 print(" x  is  1==True  => True \n y  is  1==False => False \n true is 1 and false is 0 \n a = 1 + 4 => 5 \n b = 0 + 10 => 10")
 
 print("\n")
-# exercice 2
+# exercise 2
 
 longest = ""
 while 1:
@@ -24,7 +24,7 @@ while 1:
              continue
 
 
-# exercice 3
+# exercise 3
 
 para ="trees play an important role in our ecosystem .\n trees provide shade shelter oxygen and many even produce fruit .\n there are over 60000 species of trees that come in all shapes and sizes .\n from majestic cedars to smaller fruit trees and shrubs ."
 
@@ -48,3 +48,4 @@ for sentence in sentences:
     print( aver_word_para)
 
 print("the number of non-unique words : ", len(para.split()) - len(set(para.split())) )
+
