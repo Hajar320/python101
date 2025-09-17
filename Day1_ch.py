@@ -1,4 +1,4 @@
-# challange 1
+# challenge 1
 n,l = input("Enter a number and length of series seperated by ',' : ").split(",")
 my_list = []
 for i in range(1, int(l)+1):
@@ -8,7 +8,7 @@ for i in range(1, int(l)+1):
 print( f"number : {n} - lenght {l} ---> {my_list}")
     
 
-#challange 2
+#challenge 2
 string = input ("enter a string :")
 result = []
 prev_char = ""
@@ -20,3 +20,4 @@ for char in string:
 result_word = ''.join(result)
 
 print(result_word)
+
