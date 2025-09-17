@@ -1,4 +1,4 @@
-# exercice 1
+# exercise 1
 import math
 class Circle:
     def __init__(self, radius=1.0):
@@ -22,7 +22,7 @@ my_area = my_circle.area()
 print("area :", my_area)
 
 
-# exercice 2
+# exercise 2
 
 class Mylist:
     def __init__(self,letters):
@@ -48,7 +48,7 @@ sorted_result = tryy.sorted_list()
 print("Sorted list:", sorted_result)
 
 
-# exercice 3
+# exercise 3
 
 class MenuManager :
     def __init__(self):
@@ -115,4 +115,5 @@ class MenuManager :
                 return
         
         print(f" Manager notification: '{name}' is not in the menu.")
+
 
