@@ -1,4 +1,4 @@
-# exercice 1
+# exercise 1
 class Cat:
     def __init__(self, name, age):
         self.name = name
@@ -24,7 +24,7 @@ print(f"The oldest cat is {oldest.name}, who is {oldest.age} years old!")
 
        
       
-# exercice 2
+# exercise 2
 class Dog :
 
     def __init__(self,name,height):
@@ -57,7 +57,7 @@ else :
 
 
 print("\n")
-# exercice 3
+# exercise 3
 
 class Song :
     def __init__(self,lyrics):
@@ -73,7 +73,7 @@ stairway= Song(["There’s a lady who's sure","all that glitters is gold", "and 
 stairway.sing_me_a_song()
 
 print("\n")
-# exercice 4
+# exercise 4
 
 from itertools import groupby
 
@@ -169,4 +169,5 @@ print()
 print("10. Final state of the zoo:")
 new_york_zoo.get_animals()
 print()
+
 new_york_zoo.get_groups()
