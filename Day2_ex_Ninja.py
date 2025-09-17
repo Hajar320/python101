@@ -1,5 +1,5 @@
 
-# exercice 1 
+# exercise 1 
 manufacturers_string = "Volkswagen, Toyota, Ford Motor, Honda, Chevrolet"
 
 manufacturers_list = manufacturers_string.split(", ")
@@ -37,7 +37,7 @@ for manufacturer in unique_manufacturers:
 
 
 print("\n")
-# exercice 2 
+# exercise 2 
 
 def get_full_name(first_name, last_name, middle_name=None):
     
@@ -51,7 +51,7 @@ print(get_full_name(first_name="john", middle_name="hooker", last_name="lee"))
 print(get_full_name(first_name="bruce", last_name="lee"))
 
 print("\n")
-# exercice 3
+# exercise 3
 
 MORSE_CODE_DICT = {
     'A': '.-', 'B': '-...', 'C': '-.-.', 'D': '-..', 'E': '.', 'F': '..-.',
@@ -101,3 +101,4 @@ def morse_to_text(morse_code):
 
 print(text_to_morse("hello everyone"))
 print(morse_to_text(".... . .-.. .-.. --- / . ...- . .-. -.-- --- -. "))
+
