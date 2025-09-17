@@ -1,4 +1,4 @@
-#exercice 1
+#exercise 1
 month = int(input("choose a month (1 to 12) :"))
 if month in [3,4,5]:
     print(" the season of the month is spring")
@@ -10,7 +10,7 @@ elif month in [12,1,2]:
    print(" the season of the month is winter")
 
 print("\n\n")
-# exercice 2
+# exercise 2
 
 num = range(1,21)
 for i in range(1,21):
@@ -25,14 +25,14 @@ for i in my_list:
    
 
 print("\n\n")
-# exercice 3
+# exercise 3
 
 while 1:
     name = input("what is your name ? ")
     if name == "hajar":
          break
 print("\n\n")
-#exercice 4
+#exercise 4
 
 names = ['Samus', 'Cortana', 'V', 'Link', 'Mario', 'Cortana', 'Samus']
 
@@ -42,7 +42,7 @@ if name in names :
 
 
 print("\n\n")
-# exercice 5
+# exercise 5
 
 a = input("Input the 1st number: ")
 b = input("Input the 2nd number: ")
@@ -52,7 +52,7 @@ c = input("Input the 3rd number: ")
 
 
 print("\n\n")
-# exercice 6
+# exercise 6
 import random
 random_int = random.randint(1,9)
 num = int(input("enter a number between 1 and 9 : "))
@@ -102,5 +102,6 @@ print("the number of loss : ",count2)
  
  
   
+
 
 
