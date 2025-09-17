@@ -1,6 +1,6 @@
 import json
 
-# exercice 1 
+# exercise 1 
 
 keys = ['Ten', 'Twenty', 'Thirty']
 
@@ -11,7 +11,7 @@ dict_keys = dict(zip(keys,values))
 print (dict_keys)
 
 print("\n")
-# exercice 2
+# exercise 2
 
 family = {
     "rick": 43, 
@@ -51,7 +51,7 @@ while True:
 print("Your family:", your_family)
 
 print("\n")
-# exercice 3
+# exercise 3
 
 brand = json.loads('''
 {
@@ -69,26 +69,13 @@ brand = json.loads('''
 }
 ''' )
 
-#print(brand)
-brand['number_stores']=2
-#print(brand['number_stores'])
 
-#print(f"zaras clients are {" ,".join(brand['type_of_clothes'][:3])} and people who like to stay at {"".join(brand['type_of_clothes'][-1])} ")
+brand['number_stores']=2
+
 
 brand['country_creation']= 'spain'
 
-#print(brand)
 
-
-#exist = brand.get('international_competitors', 'Contact not found')
-#print(exist)
-brand["international_competitors"] = [brand["international_competitors"], "Desigual"]
-#klkprint(brand)
-
-#del brand['creation_date']
-#print(brand)
-
-#print(brand['international_competitors'][-1])
 print("Major clothes colors in the US:", ", ".join(brand['major_color']['US']))
 print("Number of key-value pairs in brand:", len(brand))
 print("Keys of the brand dictionary:", list(brand.keys()))
@@ -103,7 +90,7 @@ print(merges_dict)
 print("Value of 'number_stores':", merges_dict['number_stores'])
 
 print("\n")
-# exercice 4 
+# exercise 4 
 
 def describe_city(city,country="morocco"):
     
@@ -113,7 +100,7 @@ describe_city('meknes')
 describe_city('tokyo','japan')
 
 print("\n")
-# exercice 5
+# exercise 5
 
 import random
 
@@ -129,7 +116,7 @@ num_fun(9)
 num_fun(-9)
 
 print("\n")
-# exercice 6 
+# exercise 6 
 
 def make_shirt(size="large",text="i love python"):
     print(f"The size of the shirt is {size} and the text is {text}")
@@ -144,7 +131,7 @@ shirt_size = "tiny"
 make_shirt(text=custom_text, size=shirt_size)
 
 print("\n")
-# exercice 7
+# exercise 7
 
 #1
 import random
@@ -221,7 +208,7 @@ user_season = input ("enetr a season: ")
 main(user_season)
 
 print("\n")
-# exercice 8
+# exercise 8
 
 data = [
     {
@@ -288,12 +275,13 @@ if mistakes:
         print(f"  Correct answer: {mistake['correct_answer']}")
         print()
 
-# Final message
+
 if correct_answers == len(q):
     print("Perfect score! You're a Star Wars expert!")
 elif correct_answers >= len(q) / 2:
     print("Good job!")
 else:
     print("Keep practicing!")
+
 
 
