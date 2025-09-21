@@ -45,7 +45,7 @@ students = [
     }
 ]
 
-@app.route("/")
+
 
 @app.route("/students")
 def get_students():
