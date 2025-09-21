@@ -11,24 +11,40 @@ POST http://localhost:5000/students
 Content-Type: application/json
 
 {
-    "name": "Ossama Zain",
-    "email": "ossama.zain@example.com",
+    "name": "lizzie mequire ",
+    "email": "hk@example.com",
     "age": 20,
     "gender": "male"
 }
 
+### Create a student with invalid data
+POST http://localhost:5001/students
+Content-Type: application/json
+
+{
+    "name": "",
+    "email": "invalid-email",
+    "age": -5,
+    "gender": "unknown"
+}
 
 ### update a student
 PUT http://localhost:5000/students/1
 Content-Type: application/json
 
 {
-    "name": "Ossama Zain",
-    "email": "ossama.zain@example.com",
-    "age": 20,
+    "name": "Zain pipo ",
+    "email": "rechard@example.com",
+    "age": 40,
     "gender": "male"
 }
 
 
 ### delete a student
-DELETE http://localhost:5000/students/8
+DELETE http://localhost:5000/students/2
+
+### Delete a non-existent student
+DELETE http://localhost:5001/students/999
+
+### Test 404 error
+GET http://localhost:5001/nonexistent
