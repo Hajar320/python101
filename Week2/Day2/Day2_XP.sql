@@ -64,14 +64,14 @@ from film
 where title like 'Ho%'
 
 --10
-select title ,replacement_cost
+select title ,rental_rate
 from film
-order by replacement_cost asc
+order by rental_rate asc
 limit 10 
 
 --11
-select title ,replacement_cost  from (
-select title ,replacement_cost ,row_number()over(order by replacement_cost asc,title ) as row_num
+select title ,rental_rate  from (
+select title ,rental_rate ,row_number()over(order by rental_rate asc,title ) as row_num
 from film) 
 where row_num between 11 and 20
 
@@ -97,4 +97,5 @@ on c.country_id = co.country_id
 select p.staff_id ,p.amount, p.payment_date, c.customer_id, concat(c.first_name,' ',c.last_name) as name 
 from customer c join payment p
 on  c.customer_id = p.customer_id
+
 order by p.staff_id
