@@ -1,0 +1,36 @@
+
+
+GET http://localhost:5001/
+###
+GET http://localhost:5001/students?page=1&limit=2
+
+### Get all male students
+GET http://localhost:5001/students/gender/male
+
+
+###
+GET http://localhost:5001/students/1
+
+### CREATE new student
+POST http://localhost:5001/students
+Content-Type: application/json
+
+{
+    "name": "leonardo davichi",
+    "email": "leonardo@example.com",
+    "age": 26,
+    "gender": "male"
+}
+
+### UPDATE student
+PUT http://localhost:5001/students/1
+Content-Type: application/json
+
+{
+    "name": "John Updated",
+    "age": 26
+}
+
+
+### DELETE student
+DELETE http://localhost:5001/students/1
