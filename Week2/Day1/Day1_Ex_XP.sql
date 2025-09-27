@@ -25,11 +25,14 @@ select first_name,last_name
 from students
 
 select first_name,last_name from students
-where last_name ='Benichou'or first_name='Marc'
+where id = 2
 
 select first_name,last_name from students
 where last_name ='Benichou'and first_name='Marc'
-
+    
+select first_name,last_name from students
+where last_name ='Benichou'or first_name='Marc'
+    
 select first_name,last_name from students
 where first_name like '%a%'
 
@@ -47,4 +50,5 @@ where id in (1,3)
 
 
 select * from students
+
 where birth_date >= '1/01/2000'
